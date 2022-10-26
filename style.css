@@ -103,6 +103,7 @@
 
 
 .sec3 {
+    margin-top: 12px;
     width: 100vw;
     height: 580px;
     display: flex;
@@ -145,6 +146,19 @@ hr .new4 {
 
 
 
+
+
+
+
+
+.sec5 {
+    margin-top: 12px;
+    width: 100vw;
+    height: 580px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
   /* footer-------------- */
 
