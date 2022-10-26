@@ -1,0 +1,174 @@
+/* nav---------------- */
+* {
+    box-sizing: border-box;
+}
+
+
+.nav {
+    width: 100vw;
+    height: 44px;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    position:fixed;
+}
+
+.navin {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navin div {
+    color: white;
+}
+
+
+/* header------------------- */
+
+.center {
+    width: 100vw;
+    height: 736px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 12px;
+    padding-top: 51px;
+    background: #FBFBFD;
+}
+
+#h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.28px;
+    color: #1D1D1F; 
+
+}
+
+#h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.112px;
+    color: #1D1D1F;
+}
+
+#p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.231px;
+    color: #0066CC;
+    
+}
+
+#zai {
+    margin-left: 39px;
+}
+
+#neg {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+/* sec2---------------- */
+
+.c1 {
+    /* position: relative; */
+    background-color: black;
+    z-index: -2;
+}
+
+
+
+/* sec3------------------------------ */
+
+
+.sec3 {
+    width: 100vw;
+    height: 580px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* position: relative;
+    flex: 1; */
+}
+
+.q1 {
+    width: 50vw;
+    /* position: absolute;
+    flex: 2; */
+}
+.w1 {
+    width: 50vw;
+    /* position: absolute;
+    flex: 2; */
+}
+
+
+/* sec4------------------ */
+
+
+.sec4 {
+    margin-top: 12px;
+    width: 100vw;
+    height: 580px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* position: relative;
+    flex: 1; */
+}
+
+
+hr .new4 {
+    border: 1px solid gray;
+  }
+
+
+
+
+  /* footer-------------- */
+
+
+  .footer {
+    width: 100vw;
+    height: 806.66px;
+    left: 0%;
+    right: 0%;
+    top: 3932px;
+    background: #F5F5F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 31px;
+}
+
+.f1 div{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.12px;
+    color: #6E6E73;
+    margin-bottom: 12px;
+}
